@@ -16,8 +16,9 @@ class PaymentMethodSeeder extends Seeder
     {
         DB::table('payment_methods')->insert([
             [
-                'name' => 'Bank BWA',
-                'code' => 'bwa',
+                'name' => 'Bank OCBC',
+                'code' => 'ocbc_va',
+                'thumbnail' => 'img_bank_ocbc.png',
                 'status' => 'active',
                 'created_at' => now(),
                 'updated_at' => now()
@@ -25,6 +26,7 @@ class PaymentMethodSeeder extends Seeder
             [
                 'name' => 'Bank BNI',
                 'code' => 'bni_va',
+                'thumbnail' => 'img_bank_bni.png',
                 'status' => 'active',
                 'created_at' => now(),
                 'updated_at' => now()
@@ -32,6 +34,7 @@ class PaymentMethodSeeder extends Seeder
             [
                 'name' => 'Bank BCA',
                 'code' => 'bca_va',
+                'thumbnail' => 'img_bank_bca.png',
                 'status' => 'active',
                 'created_at' => now(),
                 'updated_at' => now()
@@ -39,6 +42,7 @@ class PaymentMethodSeeder extends Seeder
             [
                 'name' => 'Bank BRI',
                 'code' => 'bri_va',
+                'thumbnail' => 'img_bank_bri.png',
                 'status' => 'active',
                 'created_at' => now(),
                 'updated_at' => now()
